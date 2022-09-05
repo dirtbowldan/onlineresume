@@ -1,0 +1,55 @@
+.container-fluid {
+  max-height: 700px;
+  height: 70%;
+  h2 {
+    margin-top: 2%;
+  }
+  .row {
+    max-height: 500px;
+    .imgs {
+      height: 100%;
+      padding: 5px;
+      margin-left: 5px;
+      position: relative; /* Needed to make room for the shadow */
+      text-align: center;
+
+      &::after {
+        content: "";
+        display: block;
+        background-color: transparent;
+        color: transparent;
+        position: absolute;
+        left: 12%;
+        bottom: 0px;
+        width: 80%;
+        max-width: 210px;
+        height: 10px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 10vw 1vw 11px rgba(0, 0, 0, 0.541);
+      }
+
+      h1 {
+        text-align: left;
+      }
+
+      h3 {
+        text-align: left;
+      }
+      h6 {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.img {
+  border-radius: 50% 10% 10% 50%;
+  box-shadow: 7px 7px 0px 0px rgba(139, 30, 121, 0.548),
+    -3px -7px 0px 0px rgb(57, 110, 170),
+    3px -10px 0px 0px rgba(212, 163, 0, 0.548),
+    -10px -1px 0px 0px rgba(65, 177, 0, 0.548);
+}

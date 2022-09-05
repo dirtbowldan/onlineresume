@@ -1,0 +1,24 @@
+.container-fluid {
+    padding: 0;
+    
+  .navbar {
+    text-align: center;
+    h2{margin: 0;}
+    color: white;
+    height: 80px;
+    box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.58);
+-webkit-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.58);
+-moz-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.58);
+
+    .audio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+        p{margin: 0;
+
+        padding: 0;}
+    }
+  }
+}
