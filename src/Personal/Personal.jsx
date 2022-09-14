@@ -1,9 +1,9 @@
-import "./Personal.scss"
+import "./Personal.scss";
+import Typewriter from "typewriter-effect";
 
 const Personal = () => {
   return (
     <div className="container-fluid">
-      
       <div className="row dflex justify-content-center">
         <div className="col imgs d-flex align-items-center justify-content-center">
           <img
@@ -14,7 +14,26 @@ const Personal = () => {
         </div>
         <div className="col flex-column d-flex justify-content-center text-left">
           <h1>Brendan Fusik</h1>
-          <h3>Skilled Programmer</h3>
+          <h3>
+            <Typewriter options={{loop: true}}
+              onInit={(typewriter) => {
+                typewriter
+
+                  .typeString("Skilled Programmer")
+
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Audio Engineer")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Producer Songwriter")
+                  .pauseFor(1000)
+                  .deleteAll()
+
+                  .start();
+              }}
+            />
+          </h3>
           <h6>Email: brendanfusik@gmail.com</h6>
           <h6>Phone: (919) 534-5339 </h6>
 

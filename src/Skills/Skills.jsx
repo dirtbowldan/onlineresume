@@ -116,23 +116,23 @@ const Skills = () => {
           <ul>
             <li>HTML5/CSS3 (Bootstrap) - 2.5 years</li>
             <li>Javascript(React/Babel) - 1.5 years</li>
-            <li>Python - 1 year </li>
-            <li>SQL/noSq - 1 year</li>
-            <li>Java 1- year</li>
             <li>Node.js - 1 year</li>
-            <li>Ruby - .5 year</li>
+            <li>Python - 1.5 year </li>
+            <li>SQL/noSqL - 1 year</li>
             <li>C#/C++ - 1 year</li>
+            <li>Java 1 - year</li>
+            <li>Ruby (on Rails) - .5 year</li>
           </ul>
         </div>
         <div className="col d-flex flex-column align-items-center justify-content-center">
-          <h3>Software</h3>
+          <h3>Software / Tools</h3>
           <ul>
             <li>Microsoft Visual Studio Code - 4 years</li>
-            <li>Unity Game Engine - 1 year</li>
-            <li>Microsoft Office - 4 years </li>
             <li>FL Studio - 6 years</li>
+            <li>Github - 5 years</li>
             <li>Firebase - 2 years</li>
             <li>Wordpress/Wix - 2 years</li>
+            <li>Unity Game Engine - 1 year</li>
             
           </ul>
         </div>

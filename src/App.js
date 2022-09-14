@@ -6,6 +6,7 @@ import Personal from "./Personal/Personal";
 import Skills from "./Skills/Skills";
 import Jobex from "./Jobex/Jobex";
 import Websites from "./Websites/Websites";
+import Typewriter from "typewriter-effect"
 function App() {
   return (
     <div className="App">
@@ -42,7 +43,7 @@ function App() {
               textcolor={"rgb(255, 255, 255)"}
               school="Wakefield"
               bgcolor={"rgb(0, 0, 0)"}
-              major={"Graduated w honors"}
+             
               image={
                 "https://www.wcpss.net/cms/lib/NC01911451/Centricity/Template/GlobalAssets/images///logos/WakefieldHigh.gif"
               }
