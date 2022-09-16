@@ -2,6 +2,8 @@
   background-image: url("dbdsite.png");
   background-size: cover;
 }
+
+
 .proxy {
   background-image: url("proxtsnip.png");
 }
@@ -390,6 +392,7 @@ p {
 }
 #app {
   position: relative;
+  margin-bottom: 100px;
 }
 
 .demo,
@@ -435,5 +438,23 @@ p {
     &:after {
       animation-delay: 0.75s;
     }
+  }
+}
+.github{
+  background-color: #040712;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: 1px solid black;
+  transition: .3s;
+  text-decoration: none;
+
+  &:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+    transition: .3s;
+
   }
 }
